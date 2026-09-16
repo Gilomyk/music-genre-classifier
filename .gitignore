@@ -1,0 +1,24 @@
+# dane i modele (za duże / generowane, nie commitujemy)
+data/genres/
+data/features/
+models/*.joblib
+models/*.png
+!docs/confusion_matrix.png
+
+# środowisko wirtualne
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# system
+.DS_Store
+Thumbs.db
